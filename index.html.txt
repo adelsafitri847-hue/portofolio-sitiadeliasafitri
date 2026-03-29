@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Adelia</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<nav>
+  <h2 class="logo">Adelia</h2>
+  <div>
+    <a href="#about">Profile</a>
+    <a href="#experience">Pengalaman</a>
+    <a href="#education">Pendidikan</a>
+    <a href="#seminar">Seminar</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Kontak</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <h1 id="typing"></h1>
+  <p>Digital Business | UI/UX | Creative Marketing</p>
+</header>
+
+<!-- PROFILE -->
+<section id="about" class="fade">
+  <div class="glass">
+    <h2>Profile</h2>
+
+    <p>
+      Saya, <strong>Siti Adelia Safitri</strong>, mahasiswa semester 6 Fakultas Teknologi dan Bisnis, 
+      Program Studi Bisnis Digital di Universitas Yatsi Madani.
+    </p>
+
+    <p>
+      Memiliki pengalaman kerja yang variatif, mulai dari manajemen ritel hingga pendidikan anak usia dini.
+    </p>
+
+    <p>
+      Memiliki keterampilan analitis dalam pengelolaan keuangan (Excel), kreativitas dalam pembuatan konten promosi, 
+      serta kemampuan UI/UX dan pemahaman dunia digital.
+    </p>
+
+    <p>
+      Aktif organisasi sebagai Ketua Kewirausahaan di masa SMA dan Divisi Humas saat ini.
+    </p>
+
+  </div>
+</section>
+
+<!-- PENGALAMAN -->
+<section id="experience" class="fade">
+  <h2>Pengalaman</h2>
+
+  <div class="grid">
+
+    <div class="card glow">
+      <h3>Pengajar Anak Usia Dini</h3>
+      <p><strong>biMBA AIUEO & SAMRT Education Center</strong></p>
+      <ul>
+        <li>Menyusun materi pembelajaran kreatif untuk perkembangan kognitif dan sosial anak</li>
+        <li>Membangun komunikasi efektif dengan orang tua mengenai perkembangan anak</li>
+        <li>Melatih kesabaran, public speaking, dan manajemen kelas</li>
+      </ul>
+    </div>
+
+    <div class="card glow">
+      <h3>Karyawati Toko Pakaian</h3>
+      <ul>
+        <li>Manajemen stok barang dan memastikan ketersediaan produk</li>
+        <li>Menata display produk agar menarik pelanggan</li>
+        <li>Memberikan pelayanan prima kepada pelanggan</li>
+      </ul>
+    </div>
+
+    <div class="card glow">
+      <h3>Wirausaha Kuliner</h3>
+      <ul>
+        <li>Mengelola arus kas secara akurat (manual & Excel)</li>
+        <li>Mengembangkan strategi promosi penjualan</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- PENDIDIKAN -->
+<section id="education" class="fade">
+  <h2>Pendidikan</h2>
+  <div class="card glass">
+    Universitas Yatsi Madani - S1Bisnis Digital (Semester 6)
+  </div>
+</section>
+
+<!-- SEMINAR -->
+<section id="seminar" class="fade">
+  <h2>Seminar</h2>
+  <div class="grid">
+    <div class="card glow">Digital Marketing</div>
+    <div class="card glow">Public Speaking</div>
+    <div class="card glow">UI/UX Design</div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="fade">
+  <h2>Album Kegiatan</h2>
+
+  <div class="grid">
+    <img src="foto1.jpg" class="gallery">
+    <img src="foto2.jpg" class="gallery">
+    <img src="foto3.jpg" class="gallery">
+    <img src="foto4.jpg" class="gallery">
+  </div>
+</section>
+
+<!-- POPUP -->
+<div id="popup">
+  <span id="close">&times;</span>
+  <img id="popup-img">
+</div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Kontak</h2>
+
+  <div class="social">
+    <a href="https://wa.me/0895327715278"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://instagram.com/sft_adl"><i class="fab fa-instagram"></i></a>
+    <a href="adelsafitri847@gmail.com"><i class="fas fa-envelope"></i></a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Siti Adelia Safitri</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
